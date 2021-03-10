@@ -1,0 +1,23 @@
+.red{
+    height: 250px;
+    background-color:skyblue;
+}
+
+.title{
+    background-color:rgb(245, 128, 112);
+}
+
+.police{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    
+}
+
+.backAccueil{
+    background-image: url("ensc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+}
