@@ -31,6 +31,8 @@ include_once('include/header.php');
           <label for="mail"> Mail :</label>
             <input class= "position-relative"  style="left: 90px"  type="mail" name="mail" id="mail" />
               <br /> <br />
+          <label for="promo">Promotion  :</label>
+            <input class= "position-relative"  style="left: 90px"  type="text" name="promo" id="promo" />
               <br /> <br />
 
           <button class=" position-relative btn-lg btn-info" style=""  >  S\'inscrire</button>
@@ -38,20 +40,7 @@ include_once('include/header.php');
           </form>
 
 
-      <?php  if ( isset($_POST['usrname']) && isset($_POST['password']) && isset($_POST['mail'])){
-            $_SESSION['Uniqid'] = generate_code();
-            $res = register();
-            if($res == false){
-              echo '<div class="position-relative badge-lg badge-light text-wrap text-danger font-weight-bold" style="width: 10rem; left: 650px" >';
-              print_r("Une erreur s'est produite. Le nom ou l'adresse mail est déjà utilisé!");
-              echo '</div> ';
-
-            }else{
-                print_r("registred");
-                header('location: ../view/connexion.php');
-            }
-        }
-        ?>
+      
         </div>
         </body>
         <?php
