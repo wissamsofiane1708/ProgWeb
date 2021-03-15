@@ -9,8 +9,8 @@ include_once('include/head.php');
        
         $host = 'localhost';
 $db   = 'projetprogweb';
-$user = 'root';
-$pass = ' ';
+$user = 'wiwi';
+$pass = 'wiwi';
 $port = "3306";
 $charset = 'utf8mb4';
 
@@ -21,10 +21,10 @@ $options = [
 ];
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset;port=$port";
 try {
-     $pdo = new \PDO($dsn, $user, $pass, $options);
+     $pdo = new PDO($dsn, $user, $pass, $options);
 }
- catch (\PDOException $e) {
-     throw new \PDOException($e->getMessage(), (int)$e->getCode());
+ catch (PDOException $e) {
+     throw new PDOException($e->getMessage(), (int)$e->getCode());
 }
       }
     ?>
