@@ -18,7 +18,8 @@ include_once('include/header.php');
           <div class="navbar-expand-md container-fluid backAccueil">
           <br /> <br />
           <h1 class="text-info" style ="text-align: center">Inscription </h1>
-          <form class="position-relative text-primary" style ="text-align: center" method="post" action ="inscription.php" enctype="multipart/form-data"><br />
+          
+          <form class="position-relative text-primary " style ="text-align: center" method="post" action ="inscription.php" enctype="multipart/form-data"><br />
 
           <label for="id"> Pseudo :</label>
             <input class= "position-relative"  style="left: 79px" name="usrname" type="text" id="id" />
@@ -35,7 +36,7 @@ include_once('include/header.php');
             <input class= "position-relative"  style="left: 90px"  type="text" name="promo" id="promo" />
               <br /> <br />
 
-          <button class=" position-relative btn-lg btn-info" style=""  >  S\'inscrire</button>
+          <button class=" position-relative btn-lg btn-info" style=""  >  S'inscrire</button>
 
           </form>
 
