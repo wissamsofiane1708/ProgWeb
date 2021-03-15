@@ -4,8 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>Page wiwiXhugo <?php if(isset($pageTitle)){
-echo "- $pageTitle";
-    } 
+    <title>Page d'accueil du site <?php if(isset($pageTitle)) { echo "- $pageTitle"; } 
     ?></title>
 </head>

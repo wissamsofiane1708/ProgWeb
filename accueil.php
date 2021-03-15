@@ -15,7 +15,7 @@
 <h1 class="display-1 font-weight-bold text-center text-info">
             Bienvenue !
 </h1>
-    </nav>
+</div>
 
 </body>
 
