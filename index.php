@@ -3,7 +3,7 @@ require_once "fonctions.php";
 session_start();
 
 // Retrieve all movies
-$movies = getDb()->query('select * from eleve'); 
+$eleves = getDb()->query('select * from eleve'); 
 ?>
 
 <!doctype html>

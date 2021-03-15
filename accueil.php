@@ -1,21 +1,26 @@
-<?php
-session_start();
-    include('header.php');
-   // include('footer.php');
+<html>
+  
+  <?php
+
+    include_once('header.php');
+  
 ?>
 
-<html>
-<?php
-    $pageTitle='Accueil';
-    ?>
+
+
     
     <body>
 
-  <div class="navbar-expand-md container-fluid backAccueil">
+    <div class="navbar-expand-md   container-fluid backAccueil">
 <h1 class="display-1 font-weight-bold text-center text-info">
             Bienvenue !
 </h1>
-</div>
-    </body>
+    </nav>
+
+</body>
+
+    <?php
+    include('footer.php');
+    ?>
 
 </html>
