@@ -10,9 +10,9 @@ include_once('include/header.php');
               <fieldset>
                 <legend class="position-relative text-info" style ="left: 100px">Connexion</legend><br />
                 <p>
-                  <label class ="text-info" for="id"> Identifiant:</label><input class="position-relative " style ="left: 80px" name="usrname" type="text" id="id" /><br /><br />
+                  <label class ="text-info" for="id"> Identifiant:</label><input class="position-relative " style ="left: 80px" name="usrname" type="text" id="id" placeholder="Entrez votre identifiant" /><br /><br />
 
-                  <label class="text-info" for="password">Mot de Passe :</label><input class="position-relative " style ="left: 50px" type="password" name="password" id="password" /><br /><br />
+                  <label class="text-info" for="password">Mot de Passe :</label><input class="position-relative " style ="left: 50px" type="password" name="password" id="password" placeholder="Entrez votre mot de passe"/><br /><br />
                 </p>
                 </fieldset>
 
