@@ -1,26 +1,16 @@
 <?php
-require_once "fonctions.php";
-session_start();
 
-// Retrieve all movies
-$eleves = getDb()->query('select * from eleve'); 
+require_once( "include/fonctions.php");
+    $eleves = getDb()->prepare('SELECT Nom from Eleve');
+    
+    
 ?>
-
-<!doctype html>
 <html>
 
-<?php require_once "head.php"; ?>
+<?php require_once("include/head.php");
+require_once('include/header.php'); 
+echo $stmt;?>
 
-<body>
-    <div class="container">
-        <?php require_once "header.php"; ?>
 
-        
 
-        <?php require_once "footer.php"; ?>
-    </div>
-
-    
-</body>
-
-</html>
+</html> 

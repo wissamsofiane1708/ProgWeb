@@ -1,10 +1,10 @@
 <?php
 
     include('include/fonctions.php');
-    $_SESSION['isConnected'] = false;
+    
 ?>
 <html>
-  
+
     <head>
         
 
